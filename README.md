@@ -37,7 +37,7 @@ MeasureCamp:
 The building blocks and a very basic demo of the spider was originally presented at MeasureCamp 7 in London on 19 September 2015. The original Powerpoint deck and PhantomJS code is in this repository.
 
 The original deck can also be found at: http://www.slideshare.net/AlbanGrme/using-phantom-js-to-qa-your-analytics-implementation
-More details about MEasureCamp can be found at http://www.measurecamp.org
+More details about MeasureCamp can be found at http://www.measurecamp.org
 
 
 Alban Gérôme
