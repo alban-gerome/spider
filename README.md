@@ -43,3 +43,5 @@ More details about MeasureCamp can be found at http://www.measurecamp.org
 
 Alban Gérôme
 21 September 2015
+
+Follow me on Twitter: @albangerome
