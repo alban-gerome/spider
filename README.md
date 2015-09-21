@@ -17,7 +17,7 @@ Basic requirements of a spider:
 * Convert the links found into absolute URLs
 * Insert the converted links into a database but only if this is a new links
 * Update the links in the database once they have been scanned
-* Execute at least one audit task such as identifying whether you analytics tool has tracked the page
+* Execute at least one audit task such as identifying whether your analytics tool has tracked the page
 
 Current limitations:
 --------------------
@@ -37,6 +37,7 @@ MeasureCamp:
 The building blocks and a very basic demo of the spider was originally presented at MeasureCamp 7 in London on 19 September 2015. The original Powerpoint deck and PhantomJS code is in this repository.
 
 The original deck can also be found at: http://www.slideshare.net/AlbanGrme/using-phantom-js-to-qa-your-analytics-implementation
+
 More details about MeasureCamp can be found at http://www.measurecamp.org
 
 
