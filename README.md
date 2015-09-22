@@ -6,7 +6,7 @@ Introduction:
 
 I have tried to write a spider to validate web analytics implementations since 2011. My first original attempt was using PHP, cURL and MySQL. It became clear that a script could analyse the scraped HTML it could not interpret and evaluate the content. It would also only return the original content of the page and the content can change dynamically through Ajax requests and lazy loading. The code for this first attempt is not included here.
 
-I do not remember how I stumbled upon PhantomJS however PhantomJS can not only scrape the HTML content but also evaluate the Javascript code of the page you have just scraped. It also provides callbacks for HTTP requests and responses, capture page errors, save screenshots and so much more. QA teams have recognised the potential of PhantomJS already and are increasingly adding them to their toolbox. The potential for automating your web analytics implementations is phenomenal.
+PhantomJS can not only scrape the HTML content but also evaluate the Javascript code of the page you have just scraped. It also provides callbacks for HTTP requests and responses, capture page errors, save screenshots and so much more. QA teams have recognised the potential of PhantomJS already and are increasingly adding them to their toolbox. The potential for automating your web analytics implementations is phenomenal.
 
 Basic requirements of a spider:
 -------------------------------
@@ -15,7 +15,7 @@ Basic requirements of a spider:
 * Domains to scan, your website will probably contain external URLs and we do not want the spider to start scanning the whole internet
 * Extract all links on the page
 * Convert the links found into absolute URLs
-* Insert the converted links into a database but only if this is a new links
+* Insert the converted links into a database but only if this is a new link
 * Update the links in the database once they have been scanned
 * Execute at least one audit task such as identifying whether your analytics tool has tracked the page
 
